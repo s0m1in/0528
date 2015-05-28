@@ -33,3 +33,11 @@ bash 's3fs' do
 	make && make install
 	EOF
 end
+bash 'del file and folder'
+	cwd '/tmp'
+	code <<-EOF
+	rm -rf v1.78.tar.gz
+	rm -rf fuse-2.9.3*
+	rm -rf s3fs-fuse-1.78
+	EOF
+end
