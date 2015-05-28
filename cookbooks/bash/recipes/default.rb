@@ -33,7 +33,7 @@ bash 's3fs' do
 	make && make install
 	EOF
 end
-bash 'del file and folder'
+bash 'del file and folder' do
 	cwd '/tmp'
 	code <<-EOF
 	rm -rf v1.78.tar.gz
