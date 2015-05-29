@@ -1,8 +1,8 @@
 {
   "run_list": [
-"recipe[bash]"
+"recipe[mount]"
   ],
   "automatic": {
-    "ipaddress": "192.168.1.85"
+  "ipaddress": "192.168.1.85"
   }
 }

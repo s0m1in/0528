@@ -21,6 +21,7 @@ bash 'fuse' do
 	./configure --prefix=/usr/local
 	make && make install
 	EOF
+	not_if { File.exists?("/usr/local/bin/fusermount") }
 end
 bash 's3fs' do
 	cwd '/tmp'
@@ -32,6 +33,7 @@ bash 's3fs' do
 	./configure --prefix=/usr/local
 	make && make install
 	EOF
+	not_if { File.exists?("/usr/local/bin/s3fs") }
 end
 bash 'del file and folder' do
 	cwd '/tmp'
