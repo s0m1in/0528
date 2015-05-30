@@ -1,6 +1,6 @@
 {
-  "id": "you_want_mnt_name",
-  "buckets": "bucket1",
-  "access_key_id": "ABCDEFGHIJKLMNOPQRST",
-  "secret_access_key": "abcdefghijklmnopqrstuvwxyz01234567890ABC"
+  "id": "user0",
+  "buckets": "taipei-fuhu-appstore-stable",
+  "access_key_id": "boredomgotdnscom",
+  "secret_access_key": "boredomgotdnscomboredomgotdnscom"
 }
